@@ -1,0 +1,37 @@
+/*Minha folha de estilo para Divs*/
+/*É possivel passar propriedades na folha de estilo de três modos distintos:
+
+1. propriedades CSS para TAG html*/
+body{
+  /*As chaves contem todas as propriedades necessarias para estilização da tag definida*/
+  /*plugin para capturar o rgb dos sites COLORZILA*/
+  /*color.adobe.com*/
+  background-color: #0E4E71;
+  color:#fff;
+  /*propriedade color altera a cor dos textos*/
+
+}
+/*2. Propriedades CSS para identificadores (Atributo ID) NÃO PODE SER REPETIDO NO SITE*/
+/*esta propriedade sempre será precedida de #(jogo da velha)*/
+#principal{
+  background-color: green;
+}
+#cabecalho{
+  background-color: blue;
+}
+#menu{
+  background-color: red;
+  font-weight:800;
+  font-style: italic;
+}
+#conteudo{
+  background-color: purple;
+}
+#rodape{
+  background-color: #ff99ff;
+}
+
+/*3. Classes de CSS são definidas atraves de nomes proprios identificadas atraves de um .(ponto) antes de seu nome... UTILIZADO QUANDO PRECISA REPETIR NO SITE*/
+.minha-classe{
+  color: yellow;
+}
