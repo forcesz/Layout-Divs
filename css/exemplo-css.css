@@ -1,14 +1,19 @@
+
+/*ESTRUTURA DE RESET (limpa todas as margens padrões das tags) OBRIGATORIO NA FOLHA DE ESTILO PRINCIPAL*/
 *{
   margin: 0;
   padding: 0;
+  /*padding=margem de conteudo espaço para dentro do elemento*/
   border: 0;
   }
+
   body{
     font: 12px Arial, helvetica, sans-serif;
     background-color: #CCC;
   }
   #wrap{
-    margin: 0 auto;
+    margin: 0 auto; /*centraliza o elemento no meio da pagina*/
+    /*propriedade podem receber mais de um valor de uma so vez, margem recebe zero de espaço e alinhamento automatico*/
     width: 1000px;
   }
   #header{
