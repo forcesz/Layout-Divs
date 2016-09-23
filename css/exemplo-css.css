@@ -89,6 +89,7 @@
     }
     #content a{
       float: right;
+      /*float posiciona a div de acordo com as divs proximas a ela*/
     }
     h1{
       font-size: 26px;
@@ -108,16 +109,24 @@
       font-size: 12px;
       color: #036;
     }
+    /*pseudo-elemento link: quando o link existir sem que tenha sido clicado*/
     a:link{
       color: #03c;
     }
     a:visited{
+      /*pseudo elemento "visited": ocorre quando um link ja foi clicado e sua pagina destino ja foi acessado*/
       color: #FFF;
     }
+    /*houver=mouse ativo */
+    /*pseudo elemento hover: ocorre quando o mouse é posicionado sobre o link*/
     a:houver{
       color: #000;
       text-decoration: underline;
     }
     a:active{
+      /*pseudo elemento active: ocorre quando o botão do mouse é pressionado sobre o elemento mas não eh solto*/
+      /*developer.mozilla.org*/
+      /*cursor= altera a imagem do mouse*/
       color: #099;
+
     }
